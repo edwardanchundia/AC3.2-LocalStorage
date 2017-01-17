@@ -26,7 +26,6 @@ public func stripMaskResizing(_ views: [UIView]) {
 }
 
 public extension Array where Element: NSLayoutConstraint {
-  
   public func activate() {
     let _ = self.map{ $0.isActive = true }
   }
